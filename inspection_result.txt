@@ -1,0 +1,25 @@
+--- api_data_aadhar_enrolment_0_500000.csv ---
+Columns: ['date', 'state', 'district', 'pincode', 'age_0_5', 'age_5_17', 'age_18_greater']
+First Row: ['02-03-2025', 'Meghalaya', 'East Khasi Hills', np.int64(793121), np.int64(11), np.int64(61), np.int64(37)]
+Shape: (500000, 7)
+Unique States (first 10): ['Meghalaya' 'Karnataka' 'Uttar Pradesh' 'Bihar' 'Maharashtra' 'Haryana'
+ 'Rajasthan' 'Punjab' 'Delhi' 'Madhya Pradesh']
+FOUND 100000 IN STATES!
+Bad Row Sample: ['02-09-2025', '100000', '100000', np.int64(100000), np.int64(0), np.int64(0), np.int64(3)]
+
+--- api_data_aadhar_enrolment_500000_1000000.csv ---
+Columns: ['date', 'state', 'district', 'pincode', 'age_0_5', 'age_5_17', 'age_18_greater']
+First Row: ['26-10-2025', 'Andhra Pradesh', 'Nalgonda', np.int64(508004), np.int64(0), np.int64(1), np.int64(0)]
+Shape: (500000, 7)
+Unique States (first 10): ['Andhra Pradesh' 'Arunachal Pradesh' 'Assam' 'West Bengal' 'Chhattisgarh'
+ 'Delhi' 'Goa' 'Gujarat' 'Haryana' 'Himachal Pradesh']
+FOUND 100000 IN STATES!
+Bad Row Sample: ['15-11-2025', '100000', '100000', np.int64(100000), np.int64(0), np.int64(0), np.int64(3)]
+
+--- api_data_aadhar_enrolment_1000000_1006029.csv ---
+Columns: ['date', 'state', 'district', 'pincode', 'age_0_5', 'age_5_17', 'age_18_greater']
+First Row: ['31-12-2025', 'Karnataka', 'Bidar', np.int64(585330), np.int64(2), np.int64(3), np.int64(0)]
+Shape: (6029, 7)
+Unique States (first 10): ['Karnataka' 'Kerala' 'Ladakh' 'Lakshadweep' 'Madhya Pradesh'
+ 'Maharashtra' 'Manipur' 'Meghalaya' 'Mizoram' 'Nagaland']
+
